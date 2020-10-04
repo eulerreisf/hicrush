@@ -6,9 +6,5 @@ import SignUp from './containers/SignUp';
 import SignIn from './containers/SignIn';
 
 export default function App() {
-  return (
-    <NavigationContainer>
-      ola
-    </NavigationContainer>
-  );
+  return <SignUp />;
 }
